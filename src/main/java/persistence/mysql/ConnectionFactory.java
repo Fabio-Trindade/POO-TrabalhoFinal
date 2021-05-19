@@ -8,8 +8,8 @@ import java.util.logging.Logger;
 
 public class ConnectionFactory {
     public static final String URL = "jdbc:mysql://localhost:3306/tpfinalpoo";
-    public static final String USER = "tpfinal";
-    public static final String PASS = "poo";
+    public static final String USER = "root";
+    public static final String PASS = "fabiodtnaf";
 
     public static Connection getConnection() {
         try {
